@@ -24,7 +24,7 @@
     width: 220px;
     margin: 35px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px #ff61241f;
+    box-shadow: 0 0 20px 9px #e70b0b1f;
     border-radius: 30px;
 }
 .toggle-btn
@@ -38,13 +38,13 @@
 }
 #btn
 {
-    background-color: #ffad06;
+    background-color: #ff061b;
     border-radius: 30px;
     transition: 0.5s;
 }
 #btn:hover
 {
-    color:#cd8e0f ;
+    color:#ff061b ;
     box-shadow: 2px;
 }
 .socials
@@ -74,7 +74,7 @@
     margin: 5px 0;
     border-left: 0;
     border-top: 0;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid rgba(245, 53, 53, 0.699);
     border-right: 0;
     outline: none;
     background: transparent;
@@ -87,7 +87,7 @@
  cursor: pointer;
  display: block;
  margin: auto;
- background-color: #ffad06;
+ background-color: #ff061b;
  border: none;
  outline: 0;
  border-radius: 30px;
@@ -97,6 +97,7 @@
 {
     margin: 30px 10px 0;
     position: relative;
+    border-radius: 30 px;
 }
 span
 {
