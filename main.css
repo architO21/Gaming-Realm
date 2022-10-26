@@ -2,13 +2,23 @@
 {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(27844.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(1.jpg);
    background-position:center ;
    background-size: cover;
    position: absolute;
    margin: none;
    padding: none;
+   animation: slider 15s infinite linear;
 }
+
+@keyframes slider {
+    0%{background-image:url(1.jpg) ;}
+    30%{background-image:url(2.jpg) ;}
+    60%{background-image:url(3.jpg) ;}
+    90%{background-image:url(4.jpg) ;}
+    99%{background-image:url(27844.jpg);}
+}
+
 .form-box
 {
     width:380px;
@@ -81,7 +91,7 @@
 }
 .submit-btn
 {
-
+ 
  width: 85%;
  padding: 10px 30px;
  cursor: pointer;
@@ -91,7 +101,9 @@
  border: none;
  outline: 0;
  border-radius: 30px;
+ margin-top: 30px;
  padding-top: 10px;
+ 
 }
 .checkbox
 {
